@@ -8,6 +8,13 @@
   font-weight: 700;
 }
 
+.header-bottom {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+}
+
 .header-left {
   margin-left: 10px;
 }
@@ -70,6 +77,10 @@
   font-size: 15px;
 }
 
+a .fa-bars {
+  display: none;
+}
+
 .main {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -83,10 +94,8 @@
 
 .tnw {
   grid-row: span 2;
-  background: url("https://epsilon.aeon.co/images/afef287f-dd6f-4a6a-b8a6-4f0a09330657/idea_sized-kendal-l4ikccachoc-unsplash.jpg") no-repeat, linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,0.9));
-  height: 450px;
-  /* background-color: linear-gradient(rgba(114, 106, 106, 0.7) 50%, rgb(31, 27, 27) 50%); */
-  /* background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,0.9)); */
+  background-image: linear-gradient(to bottom, rgba(247, 139, 139, 0.2), rgb(5, 0, 0)), url("https://epsilon.aeon.co/images/afef287f-dd6f-4a6a-b8a6-4f0a09330657/idea_sized-kendal-l4ikccachoc-unsplash.jpg");
+  height: 100%;
   background-size: cover;
 }
 
@@ -153,12 +162,12 @@
 }
 
 .report {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-2020-12-23T134930.165-796x417.png");
+  background-image: linear-gradient(to bottom, rgba(247, 139, 139, 0.2), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-2020-12-23T134930.165-796x417.png");
   background-size: cover;
 }
 
 .person {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/1-copy-26-796x417.jpg");
+  background-image: linear-gradient(to bottom, rgba(247, 139, 139, 0.2), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/1-copy-26-796x417.jpg");
   background-size: cover;
 }
 
@@ -323,6 +332,7 @@
   text-decoration: none;
 }
 
+.nference-card1,
 .nference-card {
   position: relative;
 }
@@ -425,41 +435,40 @@
 }
 
 .fork {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/winklevossbitcoin-368x276.jpg");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/winklevossbitcoin-368x276.jpg");
 }
 
 .fork1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/eoy-netflix-length-368x276.png");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/eoy-netflix-length-368x276.png");
 }
 
 .fork2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/header-image-the-apple-watch-controls-my-life-368x276.png");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/header-image-the-apple-watch-controls-my-life-368x276.png");
 }
 
 .fork3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/1-copy-51-368x276.jpg");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/1-copy-51-368x276.jpg");
 }
 
 .fork4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg");
 }
 
 .fork5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium-368x276.png");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium-368x276.png");
 }
 
 .fork6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Genes-DNA-man-free-will-hed-368x276.jpg");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Genes-DNA-man-free-will-hed-368x276.jpg");
 }
 
 .fork7 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .fork8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/PulsarTNWNetflixTigerKingInterest-368x276.png");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.1), rgb(5, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/PulsarTNWNetflixTigerKingInterest-368x276.png");
 }
-
 
 .fork8,
 .fork7,
@@ -471,7 +480,7 @@
 .fork1,
 .fork {
   background-size: cover;
-  height: 276px;
+  /* height: 276px; */
 }
 
 .fork8 h5,
@@ -514,7 +523,7 @@
   text-decoration: none;
   font-family: sans-serif;
   font-weight: 900;
-  font-size: 19px;
+  font-size: 1rem;
   margin: 10px;
 }
 
@@ -630,8 +639,7 @@
 }
 
 .visit-1 img {
-  width: 270px;
-  height: 201px;
+  width: 100%;
 }
 
 .azure-pic {
@@ -652,6 +660,7 @@
 
 .azure-pic p {
   color: #aaa;
+  text-decoration: line-through;
   margin-top: 10px;
 }
 
@@ -759,3 +768,103 @@
   font-size: 30px;
   color: white;
 }
+
+.foot-baby:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 768px){
+  .latest {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+  }
+
+  .funding {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .nference-card1 {
+    display: none;
+  }
+
+  .big {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .fork h3 a,
+  .fork1 h3 a,
+  .fork2 h3 a,
+  .fork3 h3 a,
+  .fork4 h3 a,
+  .fork5 h3 a,
+  .fork6 h3 a,
+  .fork7 h3 a,
+  .fork8 h3 a {
+    font-size: 0.8rem;
+  }
+  
+  
+.fork8 h5,
+.fork7 h5,
+.fork6 h5,
+.fork5 h5,
+.fork4 h5,
+.fork3 h5,
+.fork2 h5,
+.fork1 h5,
+  .fork h5 {
+    padding: 70px 0 5px 0;
+
+  }
+
+.lat-cd h4 a{
+      /* padding: 5px 0; */
+      font-size: 0.8rem;
+      margin-left: 0;
+    }
+ 
+    .lat-cd1 a {
+      font-size: 0.8rem;
+    }
+
+  .fork {
+    /* height: 50vh; */
+  }
+
+  .deal-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 425px){
+  a .fa-bars {
+    display: inline;
+    color: #f42;
+  }
+
+  .head-bot-right {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+  }
+
+  .head-bot-left,
+  .header-top {
+    display: none;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+/* * {
+  border: 1px solid black;
+} */
