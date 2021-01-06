@@ -129,9 +129,14 @@ a .fa-bars {
   color: grey;
 }
 
+.tnw ul {
+  padding-bottom: 10px;
+}
+
 .tnw ul li {
   display: inline;
   margin-left: 12px;
+  margin-bottom: 10px;
 }
 
 .tnw ul li i {
@@ -774,97 +779,235 @@ a .fa-bars {
 }
 
 @media only screen and (max-width: 768px){
-  .latest {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); */
-  }
+ .latest {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+ }
 
-  .funding {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-  }
+ .funding {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 1fr;
+ }
 
-  .nference-card1 {
-    display: none;
-  }
+ .nference-card1 {
+   display: none;
+ }
 
-  .big {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
-  }
+ .big {
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(5, 1fr);
+ }
 
-  .fork h3 a,
-  .fork1 h3 a,
-  .fork2 h3 a,
-  .fork3 h3 a,
-  .fork4 h3 a,
-  .fork5 h3 a,
-  .fork6 h3 a,
-  .fork7 h3 a,
-  .fork8 h3 a {
-    font-size: 0.8rem;
-  }
+ .fork h3 a,
+ .fork1 h3 a,
+ .fork2 h3 a,
+ .fork3 h3 a,
+ .fork4 h3 a,
+ .fork5 h3 a,
+ .fork6 h3 a,
+ .fork7 h3 a,
+ .fork8 h3 a {
+   font-size: 0.8rem;
+ }
+   
+ .fork8 h5,
+ .fork7 h5,
+ .fork6 h5,
+ .fork5 h5,
+ .fork4 h5,
+ .fork3 h5,
+ .fork2 h5,
+ .fork1 h5,
+ .fork h5 {
+   padding: 70px 0 5px 0;
+ }
+
+ .lat-cd h4 a {
+   font-size: 0.8rem;
+   margin-left: 0;
+ }
   
-  
-.fork8 h5,
-.fork7 h5,
-.fork6 h5,
-.fork5 h5,
-.fork4 h5,
-.fork3 h5,
-.fork2 h5,
-.fork1 h5,
-  .fork h5 {
-    padding: 70px 0 5px 0;
+ .lat-cd1 a {
+   font-size: 0.8rem;
+ }
 
-  }
-
-.lat-cd h4 a{
-      /* padding: 5px 0; */
-      font-size: 0.8rem;
-      margin-left: 0;
-    }
- 
-    .lat-cd1 a {
-      font-size: 0.8rem;
-    }
-
-  .fork {
-    /* height: 50vh; */
-  }
-
-  .deal-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+ .deal-section {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+ }
 }
 
 @media only screen and (max-width: 425px){
-  a .fa-bars {
-    display: inline;
-    color: #f42;
-  }
+ a .fa-bars {
+   display: inline;
+   color: #f42;
+ }
 
-  .head-bot-right {
-    display: flex;
-    justify-content: space-between;
-    align-self: flex-end;
-  }
+ body {
+   background-color: rgb(230, 232, 233);
+ }
 
-  .head-bot-left,
-  .header-top {
-    display: none;
-  }
+ .head-bot-right {
+   display: flex;
+   justify-content: space-between;
+   align-self: flex-end;
+ }
+
+ .head-bot-left,
+ .header-top {
+   display: none;
+ }
   
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
+ .main {
+   display: flex;
+   flex-direction: column;
+ }
 
+ .head-bot-right a i {
+  padding: 0px 10px;
+  font-size: x-large;
 }
 
-/* * {
-  border: 1px solid black;
-} */
+ .head-bot-right {
+   background-color: white;
+ }
+
+ .tnw {
+   margin-top: 10px;
+ }
+
+ .tnw h5 {
+   padding-top: 70px;
+ }
+
+ .tnw h4,
+ .tnw img {
+   display: none;
+ }
+
+ .report h3 a,
+ .person h3 a,
+ .tnw h3 a {
+   font-size: 20px;
+ }
+
+ .lat-title {
+   margin-left: 10px;
+   padding: 0 10px;
+   /* background-color: white; */
+ }
+
+ .deal-section,
+ .latest {
+   margin-left: 0px;
+   background-color: white;
+   grid-template-columns: 1fr;
+   padding: 10px 20px;
+   margin-right: 0px;
+ }
+
+ .visit-1 img,
+ .item8 img,
+ .item7 img,
+ .item6 img,
+ .item5 img,
+ .item4 img,
+ .item3 img,
+ .item2 img,
+ .item1 img {
+  width: 80px;   
+  height: 80px;
+  padding-right: 10px;
+ }
+
+ .visit-1,
+ .item8,
+ .item7,
+ .item6,
+ .item5,
+ .item4,
+ .item3,
+ .item2,
+ .item1 {
+   display: flex;
+ }
+
+ .visit-1 h2 a,
+ .item8 h2 a,
+ .item7 h2 a,
+ .item6 h2 a,
+ .item5 h2 a,
+ .item4 h2 a,
+ .item3 h2 a,
+ .item2 h2 a,
+ .item1 h2 a {
+   font-weight: 600;
+ }
+
+ .sec-lat-title {
+  margin: 0;   
+  background-color: white;
+  padding: 10px 20px;
+ }
+
+ .sec-lat-add1 {
+   display: none;
+ }
+
+ .deal-section,
+ .title-lat-deal,
+ .big,
+ .funding {
+   grid-template-columns: 1fr;
+   background-color: white;
+   margin: 0;
+   padding: 10px 20px;
+ }
+
+ .fork8 h5,
+ .fork7 h5,
+ .fork6 h5,
+ .fork5 h5,
+ .fork4 h5,
+ .fork3 h5,
+ .fork2 h5,
+ .fork1 h5,
+ .fork h5 {
+   padding-top: 150px;
+ }
+
+ .fork8 h3 a,
+ .fork7 h3 a,
+ .fork6 h3 a,
+ .fork5 h3 a,
+ .fork4 h3 a,
+ .fork3 h3 a,
+ .fork2 h3 a,
+ .fork1 h3 a,
+ .fork h3 a {
+   font-size: large;
+ }
+
+ .fork8 p,
+ .fork7 p,
+ .fork6 p,
+ .fork5 p,
+ .fork4 p,
+ .fork3 p,
+ .fork2 p,
+ .fork1 p,
+ .fork p {
+   padding-bottom: 10px;
+ }
+
+ .lat-cd {
+   padding-left: 10px;
+ }
+
+ .lat-cd1 {
+   padding-left: 0px;
+ }
+
+
+}
