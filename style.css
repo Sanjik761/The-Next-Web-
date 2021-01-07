@@ -838,6 +838,7 @@ a .fa-bars {
  }
 }
 
+
 @media only screen and (max-width: 425px){
  a .fa-bars {
    display: inline;
