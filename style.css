@@ -88,8 +88,6 @@ a .fa-bars {
   grid-gap: 10px;
   margin-left: 8px;
   margin-bottom: 50px;
-  /* justify-items: center;
-  align-items: center; */  
 }
 
 .tnw {
@@ -153,8 +151,8 @@ a .fa-bars {
 }
 
 .report ul li a {
-    text-decoration: none;
-    color: grey;
+  text-decoration: none;
+  color: grey;
 }
 
 .report ul li {
@@ -269,7 +267,6 @@ a .fa-bars {
 .card-2 h2,
 .card-1 h2 {
   margin-bottom: 10px;
-
 }
 
 .card-8 ul li,
@@ -485,7 +482,6 @@ a .fa-bars {
 .fork1,
 .fork {
   background-size: cover;
-  /* height: 276px; */
 }
 
 .fork8 h5,
@@ -896,7 +892,6 @@ a .fa-bars {
  .lat-title {
    margin-left: 10px;
    padding: 0 10px;
-   /* background-color: white; */
  }
 
  .deal-section,
